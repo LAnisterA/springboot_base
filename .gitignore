@@ -2,11 +2,13 @@
 
 .classpath
 .project
-.settings      
+.settings
+      
  ##filter databfile、sln file##
 *.mdb  
 *.ldb  
-*.sln    
+*.sln 
+   
 ##class file##
 *.com  
 *.class  
@@ -14,6 +16,7 @@
 *.exe  
 *.o  
 *.so  
+
 # compression file
 *.7z  
 *.dmg  
@@ -26,6 +29,7 @@
 *.via
 *.tmp
 *.err 
+
 # OS generated files #  
 .DS_Store  
 .DS_Store?  
@@ -35,3 +39,6 @@
 Icon?  
 ehthumbs.db  
 Thumbs.db  
+
+# py file #
+*.pyc
